@@ -1,0 +1,30 @@
+{
+  "name": "@amindunited/git-info",
+  "version": "0.0.0",
+  "description": "A function that returns info about the current git repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/git-info.git"
+  },
+  "keywords": [
+    "Git",
+    "repo",
+    "info",
+    "information"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/git-info/issues"
+  },
+  "homepage": "https://github.com/amindunited/git-info#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
