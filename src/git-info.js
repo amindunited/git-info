@@ -7,7 +7,7 @@
  */
 'use strict';
 
-const childProcess = require('../child-process-promise/child-process-promise');
+const childProcess = require('@amindunited/child-process');
 
 const gitInfo = () => {
 
